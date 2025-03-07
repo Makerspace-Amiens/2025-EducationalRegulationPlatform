@@ -4,7 +4,7 @@ nav_order: 1
 title: Accueil
 ---
 
-# Bienvenue sur notre documentation
+# Documentation projet N°14
 
 Bienvenue dans la documentation du projet - Plateforme pédagogique de régulation -. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
 
@@ -17,7 +17,7 @@ Notre projet consiste à montrer les principes d'un régulateur PID en utilisant
 
 Ici vous publierez le poster de votre projet.
 
-![Poster projet](images/poster.jpg)
+![Poster projet](images/drone.pnj)
 
 ## Vidéo
 
