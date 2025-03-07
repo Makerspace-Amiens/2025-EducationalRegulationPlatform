@@ -9,13 +9,10 @@ title: Objectifs du projet
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
 
 ## Contexte du Projet
-
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+Ce projet vise à créer une **plateforme pédagogique interactive** permettant de comprendre et d’expérimenter les principes du **contrôle PID (Proportionnel, Intégral, Dérivatif)**. Un drone accroché à un support sera utilisé pour illustrer la régulation, il y'aura aussi un écran et des commandes ajustables pour observer directement l’impact des paramètres PID sur un système en temps réel.
 
 ## Objectifs du Projet
-
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
-
+Le projet a pour but d'expliquer de façon claire et interactive les principes du contrôle PID.
 # Existant
 
 Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
