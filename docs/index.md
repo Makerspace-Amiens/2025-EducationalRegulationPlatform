@@ -8,7 +8,6 @@ title: Accueil
 
 Bienvenue dans la documentation du projet - Plateforme pédagogique de régulation -. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
 
-![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/illustration.png)
 
 ## À propos du Projet
 Notre projet consiste à montrer les principes d'un régulateur PID en utilisant un drône accroché à un support ...suite
@@ -17,7 +16,7 @@ Notre projet consiste à montrer les principes d'un régulateur PID en utilisant
 
 Ici vous publierez le poster de votre projet.
 
-![Poster projet](images/drone.pnj)
+![Poster projet](images/drone.png)
 
 ## Vidéo
 
@@ -30,6 +29,6 @@ Ici vous publierez la vidéo de votre projet.
 - Une conclusion
 - Si en stockage local : <50mo
 
-<video src="images/intro_amiens.mp4" controls title="Title"  style="width: 100%;"></video>
+
 
 ---
