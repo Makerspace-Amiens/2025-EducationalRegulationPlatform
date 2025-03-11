@@ -1,10 +1,9 @@
 ---
 layout: default
 nav_order: 4
-title: Études et choix techniques
+title: Études d'un régulateur PID
 ---
 
-# Études d'un régulateur PID 
 La commande d’un système consiste à appliquer, via l’entrée de commande, une action sur le système de manière à
 obtenir à sa sortie un comportement déterminé. Dans le cadre de notre projet, nous allons démontrer celà avec un régulateur PID qui régulera un drône pour obtenir un équilibre bien défini.
 
@@ -40,3 +39,20 @@ Anticipe l’évolution de l’erreur en regardant sa vitesse de variation.
 Permet de réduire les oscillations en freinant les corrections trop brutales. 
 
 Problème : Trop sensible aux bruits des capteurs. 
+
+# Application du PID sur un drone 
+Le PID ajuste la puissance des moteurs en fonction des mesures des capteurs (accéléromètre, gyroscope). Il est utilisé pour : 
+
+Stabilisation (maintenir le drone à l’horizontale). 
+
+Contrôle de l'altitude (garder une hauteur constante). 
+
+Navigation autonome (suivre une trajectoire programmée). 
+
+# Pourquoi bien régler un PID ? 
+- Si Kp est trop fort, le drone peut osciller violemment. 
+
+- Si Ki est trop fort, il peut devenir de plus en plus instable. 
+
+- Si Kd est trop fort, il peut réagir trop lentement. 
+ 
