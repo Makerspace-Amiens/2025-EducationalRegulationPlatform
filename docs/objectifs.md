@@ -13,4 +13,4 @@ Ce projet vise à créer une **plateforme pédagogique interactive** permettant 
 
 Le projet a pour but d'expliquer de façon claire et interactive les principes du contrôle PID.
 
-
+![Poster projet](images/balance_2.pnj)
