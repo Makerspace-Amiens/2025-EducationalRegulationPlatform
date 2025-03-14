@@ -24,41 +24,41 @@ Tester et optimiser le dispositif pour garantir une expérience d’apprentissag
 
 **Contraintes techniques** : 
 
-Utilisation d’un microcontrôleur (ESP32, Arduino…) pour gérer la régulation PID. 
+- Utilisation d’un microcontrôleur pour gérer la régulation PID. 
 
-Intégration d’un capteur permettant d’observer la réponse du système. 
+- Intégration d’un capteur permettant d’observer la réponse du système. 
 
-Mise en place d’un affichage (écran OLED/LCD) pour visualiser les paramètres et l’évolution du système. 
+- Mise en place d’un affichage (écran OLED/LCD) pour visualiser les paramètres et l’évolution du système. 
 
-Fabrication d’une structure mécanique robuste et facilement ajustable. 
+- Fabrication d’une structure mécanique robuste et facilement ajustable. 
 
-Développement d’un code optimisé pour assurer une régulation fluide et réactive. 
+- Développement d’un code optimisé pour assurer une régulation fluide et réactive. 
 
  
 
 **Livrables attendus** : 
 
-Une plateforme pédagogique fonctionnelle illustrant le concept de régulation PID. 
+- Une plateforme pédagogique fonctionnelle illustrant le concept de régulation PID. 
 
-Un système d’affichage interactif permettant de visualiser l’impact des réglages. 
+- Un système d’affichage interactif permettant de visualiser l’impact des réglages. 
 
-Une documentation détaillée sur la conception et l’utilisation du système. 
+- Une documentation détaillée sur la conception et l’utilisation du système. 
 
-Une étude des applications réelles du PID et une analyse des performances du prototype. 
+- Une étude des applications réelles du PID et une analyse des performances du prototype. 
 
  
 
-**Vous travaillerez sur :**
+**Nous allons travailler sur :**
 
-Conception mécanique : Fabrication du support et intégration des éléments physiques du système. 
+- Conception mécanique : Fabrication du support et intégration des éléments physiques du système. 
 
-Électronique & Capteurs : Sélection et intégration des capteurs et actionneurs nécessaires. 
+- Électronique & Capteurs : Sélection et intégration des capteurs et actionneurs nécessaires. 
 
-Programmation embarquée : Développement du code de régulation PID et de l’interface utilisateur. 
+- Programmation embarquée : Développement du code de régulation PID et de l’interface utilisateur. 
 
-Interface & Affichage : Mise en place d’un affichage interactif des paramètres PID. 
+- Interface & Affichage : Mise en place d’un affichage interactif des paramètres PID. 
 
-Expérimentation & Optimisation : Test du système et ajustements pour améliorer sa réactivité et son efficacité pédagogique. 
+- Expérimentation & Optimisation : Test du système et ajustements pour améliorer sa réactivité et son efficacité pédagogique. 
 
  
 
