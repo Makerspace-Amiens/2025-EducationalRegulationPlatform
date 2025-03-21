@@ -10,22 +10,19 @@ nav_order: 1
 Cette section décrit la première étape du processus de fabrication : la préparation des matériaux.
 
 ## Liste des Matériaux
+- 2 x carte micro:bit
+  ![image](https://github.com/user-attachments/assets/633338c3-ceb2-419f-9978-8ce37221d727)
 
-- Matériau A
-- Matériau B
-- Outils nécessaires
+- 1 x carte de commande compatible micro:bit
+- 1 x Batterie accu LiPo 3,7 Vcc/800 mAh
+- 1 x support en contreplaqué
+- 1 x jeu de pièces en contreplaqué
+- 8 x hélices + 4 de rechange
+- 4 x moteurs CC miniatures
+- 1 x jeu d'anneaux en caoutchouc
+- 1 x jeu de vis et d'écrous
+- 1 x guide de démarrage
 
 ## Procédure de Préparation
-
-1. **Nettoyage** : Nettoyez tous les matériaux pour enlever la poussière et les débris.
-2. **Découpe** : Découpez les matériaux A et B selon les dimensions spécifiées.
-3. **Prétraitement** : Appliquez un traitement de surface si nécessaire.
-
-## Conseils de Sécurité
-
-- Portez toujours l'équipement de protection individuelle.
-- Suivez les instructions de sécurité des outils utilisés.
-
----
-
-Une fois cette étape terminée, passez à l'[Assemblage](/assemblage).
+Nous avons commander le kit du drône sur Gotronic (lien : https://www.gotronic.fr/art-kit-drone-air-bit-2-37563.htm)
+Une fois la commande arrivée, il a fallu tout decouper et assembler, 
