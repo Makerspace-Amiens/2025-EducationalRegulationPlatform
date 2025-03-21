@@ -1,2 +1,1 @@
-# Les ressources du projet
 
