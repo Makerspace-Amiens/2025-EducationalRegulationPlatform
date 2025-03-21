@@ -25,4 +25,4 @@ Cette section décrit la première étape du processus de fabrication : la prép
 
 ## Procédure de Préparation
 Nous avons commander le kit du drône sur Gotronic (lien : https://www.gotronic.fr/art-kit-drone-air-bit-2-37563.htm)
-Une fois la commande arrivée, il a fallu tout decouper et assembler, 
+Une fois la commande arrivée, il a fallu tout decouper et assembler
