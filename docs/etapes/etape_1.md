@@ -11,7 +11,7 @@ Cette section décrit la première étape du processus de fabrication : la prép
 
 ## Liste des Matériaux
 - 2 x carte micro:bit
-  ![image](https://github.com/user-attachments/assets/633338c3-ceb2-419f-9978-8ce37221d727)
+ ![image-20250321-075424-e6a72c2f](https://github.com/user-attachments/assets/04492989-8b23-4bea-b085-bf5e660cdd64)
 
 - 1 x carte de commande compatible micro:bit
 - 1 x Batterie accu LiPo 3,7 Vcc/800 mAh
