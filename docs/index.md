@@ -24,9 +24,12 @@ Table des matières :
 5. Ressources et Références
 
 ## Objectifs du projet ##
-- Concevoir un drone
-- Implémenter un régulateur PID
-- Analyser les performances et ajustements
+- Concevoir un prototype fonctionnel basé sur un exemple de régulation physique. 
+- Intégrer un affichage en temps réel des paramètres et du comportement du système. 
+- Permettre un réglage manuel des valeurs PID via des potentiomètres. 
+- Développer un guide pédagogique expliquant le fonctionnement et les applications du PID. 
+- Assurer une reproductibilité pour permettre son utilisation dans différents contextes éducatifs. 
+- Tester et optimiser le dispositif pour garantir une expérience d’apprentissage fluide et intuitive. 
 
 ![image](https://github.com/user-attachments/assets/239992f4-4f21-49e6-b335-2f5cc4f70dfc)
 
