@@ -33,4 +33,8 @@ Table des matières :
 
 ![image](https://github.com/user-attachments/assets/239992f4-4f21-49e6-b335-2f5cc4f70dfc)
 
-
+## Membres du groupe ##
+* Erika PAOFAI - Porgrammation python
+* Hachimi KASMI - Conception site Web
+* Liliane TCHINDA - Assemblage électronique
+* Jeannot ASLANE - Modélisation 3D
