@@ -5,7 +5,7 @@ parent: Etapes de fabrication
 nav_order: 3
 ---
 
-#Porgrammation
+# Porgrammation
 Le contrôle du drone et l'analyse des données sont réalisés en Python. Ce langage est utilisé pour :
 - Traiter les données des capteurs IMU (accéléromètre et gyroscope).
 
