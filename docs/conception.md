@@ -17,3 +17,6 @@ Pour ela, nous utiliserons :
 - 1 x jeu d'anneaux en caoutchouc
 - 1 x jeu de vis et d'écrous
 - 1 x guide de démarrage
+  
+![image](https://github.com/user-attachments/assets/36503ce6-6d84-45f0-8a6f-6ad14e7c5200)
+
