@@ -2,6 +2,7 @@
 layout: home
 nav_order: 1
 title: Présentation du projet
+has_children : true
 ---
 
 # Documentation projet N°14
