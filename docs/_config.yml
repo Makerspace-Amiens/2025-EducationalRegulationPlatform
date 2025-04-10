@@ -5,11 +5,11 @@ description: Documentation du projet
 
 # Thème
 # remote_theme: Makerspace-Amiens/CraftTheDocs-V1.0
-theme: just-the-docs
+theme: so-simple-theme
 url: https://github.com/Makerspace-Amiens
 
 # Paramètres optionnels de "Just the Docs"
-just_the_docs:
+so-simple-theme:
   navigation_depth: 5
   search_enabled: true
   search_indexing: true
