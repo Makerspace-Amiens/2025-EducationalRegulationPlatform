@@ -2,6 +2,7 @@
 layout: home
 nav_order: 1
 title: Accueil
+has_children : true
 ---
 
 # Bienvenue sur notre documentation
