@@ -6,6 +6,7 @@ title: Mode d'emploi
 ## 1. Allumer le drone 
 * Commencez par brancher la batterie à la carte.
 * Par mesure de sécurité, appyuez sur le bouton restart qui est derrière la carte.
+
 ## 2. Vérfiez que les moteurs marchents 
 * Avec la manette, appyuez sur le bouton A, les moteurs vont se mettre en marche un par un pour vérifier qu'ils fonctionnent correctement.
 * Appyuez sur les bouton A et B en même temps pour lancer les quatres moteurs à votesse réduite.
