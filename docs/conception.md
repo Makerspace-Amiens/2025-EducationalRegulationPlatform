@@ -4,19 +4,32 @@ nav_order: 5
 title: Conception et prototypage
 ---
 
-# Conception et prototypage
-Nous avons d'abord chercher plusieurs concepts pour représenter notre régulateur PID et l'expliquer de la meilleure manière, nous nous sommes mis d'accord sur un drône qui sera réguler avec le PID. 
-Pour ela, nous utiliserons : 
-- 2 x micro:bit 
-- 1 x carte de commande compatible micro:bit
-- 1 x accu LiPo 3,7 Vcc/800 mAh
-- 1 x support en contreplaqué
-- 1 x jeu de pièces en contreplaqué
-- 8 x hélices (4 de rechange)
-- 4 x moteurs CC miniatures
-- 1 x jeu d'anneaux en caoutchouc
-- 1 x jeu de vis et d'écrous
-- 1 x guide de démarrage
-  
-![image](https://github.com/user-attachments/assets/36503ce6-6d84-45f0-8a6f-6ad14e7c5200)
+## Conception et prototypage
+
+Le système a été pensé pour illustrer de manière claire et pédagogique le fonctionnement d’une régulation PID dans un contexte physique concret. Le processus de conception s’est déroulé en plusieurs étapes clés :
+
+### 1. Conception mécanique
+- Réalisation d’un support physique stable permettant d’intégrer l’ensemble des composants (capteurs, actionneurs, microcontrôleur).
+- Choix de matériaux faciles à usiner (acrylique, PLA imprimé en 3D) pour la structure.
+- Conception d’un système mobile (ex. moteur + levier ou bande transporteuse) permettant de visualiser la régulation en action.
+
+### 2. Choix des composants
+- **Microcontrôleur** :Carte microbit V2.21 pour sa simplicité et sa large documentation.
+- **Capteur** : capteur de position  pour mesurer la variable à réguler.
+- **Affichage** : écran OLED I2C pour visualiser en temps réel la valeur de consigne, la mesure, et les paramètres PID.
+
+### 3. Prototypage électronique
+
+- Câblage selon un schéma électrique reproductible.
+- Mise en place de potentiomètres pour ajuster manuellement les valeurs de Kp, Ki, Kd.
+
+### 4. Implémentation logicielle
+- Développement d’un algorithme PID dans Makecode qui offre plus de fléxibilité et facile à utiliser pour les débutants. 
+- Lecture cyclique de la variable de mesure, calcul de l’erreur, et commande du moteur.
+- Intégration d’un affichage dynamique de la réponse du système.
+
+### 5. Test et validation
+- Simulation de différents scénarios pour observer le comportement du régulateur.
+- Réglages des paramètres PID pour obtenir une réponse stable, rapide et sans dépassement excessif.
+- Analyse de la stabilité et du temps de réponse à partir de graphiques enregistrés.
 
