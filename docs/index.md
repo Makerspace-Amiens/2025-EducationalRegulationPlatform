@@ -13,7 +13,7 @@ Bienvenue dans la documentation du projet - Plateforme pédagogique de régulati
 
 Ce projet vise à concevoir et tester un drone pour illustrer comment un régulateur PID (Proportionnel, Intégral, Dérivé) permet de stabiliser un système en réponse aux perturbations extérieures. 
 
-## Table des matières :## 
+## Table des matières :
 1. Présentation du Projet
 2. Qu'est ce qu'un régulateur PID ?
 3. Conception du Drone
