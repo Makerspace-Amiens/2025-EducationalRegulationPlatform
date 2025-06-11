@@ -28,6 +28,10 @@ Le système a été pensé pour illustrer de manière claire et pédagogique le 
 - Lecture cyclique de la variable de mesure, calcul de l’erreur, et commande du moteur.
 - Intégration d’un affichage dynamique de la réponse du système.
 
+![image](docs/images/Assemblage_telecommande_drone.png)
+
+
+
 ### 5. Test et validation
 - Simulation de différents scénarios pour observer le comportement du régulateur.
 - Réglages des paramètres PID pour obtenir une réponse stable, rapide et sans dépassement excessif.
