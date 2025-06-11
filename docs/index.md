@@ -32,5 +32,6 @@ Ce projet vise à concevoir et tester un drone pour illustrer comment un régula
 * Liliane TCHINDA - Assemblage électronique 
 * Jeannot ASLANE - Modélisation 3D
 
+![image](https://github.com/user-attachments/assets/c9b5e86a-02a1-419d-bc9e-b81ddc0a77b3)
 
-![image](https://github.com/user-attachments/assets/49a99655-3845-4453-b78b-a9127bd61db1)
+
