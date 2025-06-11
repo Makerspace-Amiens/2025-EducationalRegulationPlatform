@@ -28,11 +28,9 @@ Ce projet vise à concevoir et tester un drone pour illustrer comment un régula
 - Permettre un réglage manuel des valeurs PID via des potentiomètres. 
 
 ## Membres du groupe ##
-* Erika PAOFAI - Porgrammation python
-* Hachimi KASMI - Documentation technique
-* Liliane TCHINDA - Assemblage électronique 
-* Jeannot ASLANE - Modélisation 3D
+![image](https://github.com/user-attachments/assets/73f31cba-bf59-470c-9831-4f7ca048572b)
 
+## Conception finale
 ![image](https://github.com/user-attachments/assets/c9b5e86a-02a1-419d-bc9e-b81ddc0a77b3)
 
 <video src="docs/images/WhatsApp Vidéo 2025-06-11 à 12.53.25_268cdd68.mp4"></video>
