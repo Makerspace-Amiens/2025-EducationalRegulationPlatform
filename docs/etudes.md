@@ -9,54 +9,68 @@ obtenir à sa sortie un comportement déterminé. Dans le cadre de notre projet,
 
 # Qu’est-ce que la régulation PID ? 
 
-Le PID (Proportionnel-Intégral-Dérivé) est un algorithme de contrôle utilisé pour stabiliser un drone en ajustant la vitesse de ses moteurs. Il permet au drone de corriger ses mouvements pour maintenir une attitude stable malgré les perturbations (vent, commandes du pilote...etc).
-
+Comprendre le PID (Proportionnel – Intégral – Dérivé)
+Le PID est un système de régulation utilisé pour contrôler des machines, comme un drone, de manière stable et précise. Il ajuste automatiquement les actions à effectuer (par exemple, la puissance des moteurs) pour atteindre un objectif (comme rester à l’horizontale ou suivre une trajectoire).
 
 ![image](https://github.com/user-attachments/assets/b518564b-8e75-4bfa-961d-c7a3dde15ed8)
 
-# Les trois parties du PID : 
+Comprendre le PID (Proportionnel – Intégral – Dérivé)
+Le PID est un système de régulation utilisé pour contrôler des machines, comme un drone, de manière stable et précise. Il ajuste automatiquement les actions à effectuer (par exemple, la puissance des moteurs) pour atteindre un objectif (comme rester à l’horizontale ou suivre une trajectoire).
 
-- P (Proportionnel) : 
+# Les trois composantes du PID
+## 1. P comme Proportionnel
+Fonction : Réagit à l’erreur actuelle, c’est-à-dire à la différence entre ce qu’on veut et ce qu’on a.
 
-Réagit directement à l’erreur actuelle (différence entre la position souhaitée et la position réelle). 
+Exemple : Si le drone est penché à droite de 10°, le système applique une correction proportionnelle à cette erreur.
 
-Plus l’erreur est grande, plus la correction appliquée est forte. 
+Effet : Plus l’erreur est grande, plus la correction est forte.
 
-Problème : Uniquement proportionnel, le drone peut osciller autour de sa position cible. 
+Limite :
 
- 
-- I (Intégral) : 
+Si on utilise seulement cette correction, le drone risque d’osciller autour de sa position cible (comme un ressort qui rebondit sans s’arrêter).
 
-Corrige l’erreur accumulée dans le temps (utile si une petite erreur persiste). 
+## 2. I comme Intégral
+Fonction : Corrige l’erreur cumulée dans le temps.
 
-Permet d’éliminer un décalage constant (exemple : si un moteur tourne légèrement moins vite que les autres). 
+Exemple : Si le drone reste toujours 2° trop incliné malgré la correction proportionnelle, le terme intégral s’accumule et compense ce petit décalage.
 
-Problème : Si la correction est trop forte, le drone devient instable et oscille de plus en plus. 
+Effet : Élimine les erreurs persistantes, dues par exemple à un léger déséquilibre entre les moteurs.
 
- 
-- D (Dérivé) : 
+Limite :
 
-Anticipe l’évolution de l’erreur en regardant sa vitesse de variation. 
+Si le réglage est trop fort, le drone peut devenir instable : les erreurs s’accumulent trop rapidement et provoquent des réactions excessives.
 
-Permet de réduire les oscillations en freinant les corrections trop brutales. 
+## 3. D comme Dérivé
+Fonction : Observe la vitesse à laquelle l’erreur change.
 
-Problème : Trop sensible aux bruits des capteurs. 
+Exemple : Si l’erreur augmente rapidement, le terme dérivé s’oppose à cette variation pour la freiner.
 
-# Application du PID sur un drone 
+Effet : Permet de ralentir les mouvements brusques et de réduire les oscillations.
 
-Le PID ajuste la puissance des moteurs en fonction des mesures des capteurs (accéléromètre, gyroscope). Il est utilisé pour : 
+Limite :
 
-Stabilisation (maintenir le drone à l’horizontale). 
+Très sensible aux bruits ou aux petites erreurs de mesure. Cela peut générer de fausses corrections.
 
-Contrôle de l'altitude (garder une hauteur constante). 
+# Application du PID sur un drone
+Le PID pilote le drone en ajustant la puissance de chaque moteur à partir des informations des capteurs (comme l’accéléromètre et le gyroscope). Il est utilisé pour :
 
-Navigation autonome (suivre une trajectoire programmée). 
+Stabilisation : Garder le drone droit, sans inclinaison.
 
+Contrôle de l’altitude : Maintenir une hauteur constante.
 
-# Pourquoi bien régler un PID ? 
-- Si Kp est trop fort, le drone peut osciller violemment. 
+Navigation autonome : Suivre une direction ou une trajectoire programmée.
 
-- Si Ki est trop fort, il peut devenir de plus en plus instable. 
+# Pourquoi bien régler un PID est essentiel ?
+Chaque composante a un "gain" (noté Kp, Ki et Kd), qui doit être réglé avec soin :
 
-- Si Kd est trop fort, il peut réagir trop lentement. 
- 
+Terme	Si trop fort…	Si trop faible…
+Kp (proportionnel)	Le drone oscille violemment.	Il réagit trop lentement.
+Ki (intégral)	Le drone devient de plus en plus instable.	Il garde une petite erreur constante.
+Kd (dérivé)	Il ralentit trop les mouvements, ou est perturbé par du bruit.	Les oscillations ne sont pas bien amorties.
+
+# En résumé
+Le PID est un équilibre subtil entre réactivité, précision et stabilité.
+
+Mal réglé, un drone peut être trop lent, trop nerveux, ou même injouable.
+
+Bien réglé, il permet un vol fluide, stable et précis.
