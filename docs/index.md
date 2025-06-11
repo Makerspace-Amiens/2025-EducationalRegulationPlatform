@@ -31,3 +31,6 @@ Ce projet vise à concevoir et tester un drone pour illustrer comment un régula
 * Hachimi KASMI - Documentation technique
 * Liliane TCHINDA - Assemblage électronique 
 * Jeannot ASLANE - Modélisation 3D
+
+
+![image](https://github.com/user-attachments/assets/49a99655-3845-4453-b78b-a9127bd61db1)
