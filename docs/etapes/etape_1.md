@@ -18,7 +18,8 @@ Finalement, on est resté sur le premier modèle et on a fait un premier support
 ![drone_test](https://github.com/user-attachments/assets/ae3a8a85-29d8-403f-8920-6c79f1140d3b)
 
 Nous avons ensuite amélioré ce support pour le rendre plus ethéthique qui correspond mieux à nos attentes.
-voici à quoi il ressemble sur onshape et en réalité : 
-![image](https://github.com/user-attachments/assets/2bb392ef-c1ab-4a08-931c-e7bc87f85f17) ![image](https://github.com/user-attachments/assets/84423ac1-d026-4add-8869-af6f80c274a8)
+Voici à quoi il ressemble sur onshape et en réalité : 
+![image](https://github.com/user-attachments/assets/2bb392ef-c1ab-4a08-931c-e7bc87f85f17)
+
 
 
