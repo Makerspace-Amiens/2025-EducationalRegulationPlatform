@@ -12,4 +12,13 @@ Ceci est le premier concept pour le support, mais par manque d'expérience sur o
 
 Pour le drone, on a voulu faire notre propre style, voici l'une des version conçue :
 ![image](https://github.com/user-attachments/assets/7cafed99-297e-4582-8cd1-7fd589cb8722)
+Finalement, on est resté sur le premier modèle et on a fait un premier support pour faire des tests pour le drone.
+
+![premier_support](https://github.com/user-attachments/assets/05eead91-50cf-4ec4-8ef5-9c3ebd8a592b)
+![drone_test](https://github.com/user-attachments/assets/ae3a8a85-29d8-403f-8920-6c79f1140d3b)
+
+Nous avons ensuite amélioré ce support pour le rendre plus ethéthique qui correspond mieux à nos attentes.
+voici à quoi il ressemble sur onshape et en réalité : 
+![image](https://github.com/user-attachments/assets/2bb392ef-c1ab-4a08-931c-e7bc87f85f17) ![image](https://github.com/user-attachments/assets/84423ac1-d026-4add-8869-af6f80c274a8)
+
 
