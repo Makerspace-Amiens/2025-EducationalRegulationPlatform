@@ -60,6 +60,9 @@ Contrôle de l’altitude : Maintenir une hauteur constante.
 
 Navigation autonome : Suivre une direction ou une trajectoire programmée.
 
+![image](https://github.com/user-attachments/assets/acb54110-d4b9-4d9f-b0fa-d8440ab946fc)
+
+
 # Pourquoi bien régler un PID est essentiel ?
 Chaque composante a un "gain" (noté Kp, Ki et Kd), qui doit être réglé avec soin :
 
