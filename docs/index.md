@@ -33,6 +33,9 @@ Ce projet vise à concevoir et tester un drone pour illustrer comment un régula
 ## Conception finale
 ![image](https://github.com/user-attachments/assets/c9b5e86a-02a1-419d-bc9e-b81ddc0a77b3)
 
-<video src="docs/images/WhatsApp Vidéo 2025-06-11 à 12.53.25_268cdd68.mp4"></video>
+
+## Petite vidéo pour vous résumé notre projet !
+
+[![Miniature de la vidéo](https://img.youtube.com/vi/Xj3ORki_Xh8/hqdefault.jpg)](https://youtube.com/shorts/Xj3ORki_Xh8?feature=share)
 
 
